@@ -1,7 +1,7 @@
 body {
     background-color: bisque;
     background-repeat: no-repeat;
-    background-position: middle;
+    background-position: center;
 
   }
 
@@ -89,7 +89,7 @@ li{
     float: left;
     border-right: 1px solid grey;
     text-align: left;
-    align-items: left;
+    align-items: start;
 }
 
 li:last-child{
@@ -116,3 +116,16 @@ img{
     float: none;
 }
 
+@media screen and (min-width:100px){
+    body{
+        background: bisque;
+    }
+}
+
+@media screen and (min-width:400px){
+}
+    body{
+        background: rgb(160, 214, 172);
+    }
+
+    
