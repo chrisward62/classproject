@@ -141,11 +141,11 @@ img{
     height: 100px;
     background-color: rgb(233, 12, 178);
     position: relative;
-    animation-name: colors;
+    animation-name: colors; /* Use the correct animation name */
     animation-duration: 6s;
   }
   
-  @keyframes example {
+  @keyframes  colors {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
