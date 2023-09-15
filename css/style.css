@@ -128,4 +128,9 @@ img{
         background: rgb(160, 214, 172);
     }
 
-    
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
